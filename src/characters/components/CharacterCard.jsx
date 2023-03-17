@@ -4,7 +4,7 @@ const ConvivientesbyCharacter = ({ alter_ego, convivientes }) => (alter_ego === 
 
 export const CharacterCard = ({ id, personaje, serie, alter_ego, actor_actriz, convivientes }) => {
 
-    const characterImageUrl = `./public/assets/characters/${id}.jpg`;
+    const characterImageUrl = `${process.env.PUBLIC_URL}/assets/characters/${id}.jpg`;
 
     return (
         <div className="col animate__animated animate__fadeIn">

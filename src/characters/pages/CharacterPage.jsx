@@ -20,7 +20,7 @@ export const CharacterPage = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img
-          src={`./public/assets/characters/${id}.jpg`}
+          src={`${process.env.PUBLIC_URL}/assets/characters/${id}.jpg`}
           alt={character.personaje}
           className="img-thumbnail animate__animated animate__fadeInLeft"
         />
