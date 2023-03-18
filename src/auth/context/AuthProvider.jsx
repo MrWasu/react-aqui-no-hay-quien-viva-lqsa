@@ -15,8 +15,8 @@ const init = () => {
 
 export const AuthProvider = ({ children }) => {
 
-    const [authState, dispatch] = useReducer(authReducer, {/* initial state*/ }, init) // apuntes
-    // no es necesario el initial state pues ya se encarga de ello el init
+    const [authState, dispatch] = useReducer(authReducer, {/* initial state*/ }, init) 
+    // no es necesario el initialstate pues ya se encarga de ello el init
 
     const login = (name = '') => {
 

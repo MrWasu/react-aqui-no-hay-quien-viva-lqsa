@@ -5,7 +5,7 @@ import { AuthContext } from '../../auth/context/AuthContext';
 
 export const Navbar = () => {
 
-    const { user, logout } = useContext(AuthContext) // apuntes
+    const { user, logout } = useContext( AuthContext ) 
 
     const navigate = useNavigate();
 
@@ -59,7 +59,7 @@ export const Navbar = () => {
                     <span className="nav-item nav-link text-primary">
                         {user?.name}
                     </span>
-                    { user?.name ? ( // apuntes no se puede usar if dentro de jsx
+                    { user?.name ? (
                         <button
                             className="nav-item nav-link btn"
                             onClick={onLogout}

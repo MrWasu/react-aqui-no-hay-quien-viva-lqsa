@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import queryString from 'query-string' //apuntes
+import queryString from 'query-string' 
 
 import { useForm } from '../hooks/useForm';
 import { CharacterCard } from '../components/CharacterCard';
@@ -8,7 +8,7 @@ import { getCharacterByName } from '../helpers/getCharacterByName';
 export const SearchPage = () => {
 
   const navigate = useNavigate();
-  const location = useLocation(); // apuntes
+  const location = useLocation(); 
 
   const { q = '' } = queryString.parse( location.search );
   const characters = getCharacterByName(q);

@@ -1,4 +1,4 @@
-import { types } from '../types/types'  //apuntes de todo
+import { types } from '../types/types'  
 
 const initialState = {
     logged: false,

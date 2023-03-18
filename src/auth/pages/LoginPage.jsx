@@ -10,7 +10,7 @@ const LoginPage = () => {
 
   const onLogin = () => {
 
-    const lastPath = localStorage.getItem('lastPath') || '/' // apuntes lastpath junto con lo de privatge route
+    const lastPath = localStorage.getItem('lastPath') || '/'
     
     login( 'Nombre de usuario' )
     
