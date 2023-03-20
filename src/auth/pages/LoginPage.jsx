@@ -4,15 +4,15 @@ import { AuthContext } from '../context/AuthContext';
 
 const LoginPage = () => {
 
-  const { login } = useContext( AuthContext )
+  const { login } = useContext( AuthContext );
   
   const navigate = useNavigate();
 
   const onLogin = () => {
 
-    const lastPath = localStorage.getItem('lastPath') || '/'
+    const lastPath = localStorage.getItem('lastPath') || '/';
     
-    login( 'Nombre de usuario' )
+    login( 'Nombre de usuario' );
     
     navigate( lastPath, {
       replace: true
@@ -31,4 +31,4 @@ const LoginPage = () => {
   )
 }
 
-export default LoginPage
+export default LoginPage;

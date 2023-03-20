@@ -1,6 +1,6 @@
-import React from 'react'
-import { AuthProvider } from './auth/context/AuthProvider'
-import { AppRouter } from './router/AppRouter'
+import React from 'react';
+import { AuthProvider } from './auth/context/AuthProvider';
+import { AppRouter } from './router/AppRouter';
 
 const CharactersApp = () => {
   return (
@@ -12,4 +12,4 @@ const CharactersApp = () => {
   )
 }
 
-export default CharactersApp
+export default CharactersApp;

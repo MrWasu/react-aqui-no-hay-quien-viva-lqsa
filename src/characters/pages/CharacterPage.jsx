@@ -16,6 +16,7 @@ export const CharacterPage = () => {
     <Navigate to='/marvel' />
   }
 
+  
   return (
     <div className="row mt-5">
       <div className="col-4">

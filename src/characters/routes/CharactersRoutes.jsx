@@ -1,13 +1,9 @@
 import { Navbar } from '../../ui'
-
 import { Navigate, Route, Routes } from 'react-router-dom';
-
 import { AqnhqvPage, LqsaPage, SearchPage, CharacterPage} from '../pages/index';
 
 
 const CharactersRoutes = () => {
-
-    
 
     return (
         <>
@@ -33,4 +29,4 @@ const CharactersRoutes = () => {
     )
 }
 
-export default CharactersRoutes
+export default CharactersRoutes;

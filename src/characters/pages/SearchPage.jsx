@@ -1,6 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import queryString from 'query-string' 
-
+import queryString from 'query-string'; 
 import { useForm } from '../hooks/useForm';
 import { CharacterCard } from '../components/CharacterCard';
 import { getCharacterByName } from '../helpers/getCharacterByName';
